@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T17:40:57 EDT" name="Suite" finished-at="2024-08-08T17:42:49 EDT" duration-ms="111903">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T17:40:57 EDT" name="Test" finished-at="2024-08-08T17:42:49 EDT" duration-ms="111903">
+      <class name="com.tutorialN.testCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:41:57 EDT" name="setup" finished-at="2024-08-08T17:42:02 EDT" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredianls()[pri:1, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:02 EDT" name="loginWithValidCredianls" finished-at="2024-08-08T17:42:04 EDT" duration-ms="1901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredianls -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:04 EDT" name="tearDown" finished-at="2024-08-08T17:42:04 EDT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:04 EDT" name="setup" finished-at="2024-08-08T17:42:08 EDT" duration-ms="3874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInValidCredianls()[pri:2, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:08 EDT" name="loginWithInValidCredianls" finished-at="2024-08-08T17:42:09 EDT" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredianls -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:09 EDT" name="tearDown" finished-at="2024-08-08T17:42:10 EDT" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:10 EDT" name="setup" finished-at="2024-08-08T17:42:14 EDT" duration-ms="3791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInValidEmail()[pri:3, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:14 EDT" name="loginWithInValidEmail" finished-at="2024-08-08T17:42:15 EDT" duration-ms="1453" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tutorialN.testCases.LoginTest.loginWithInValidEmail(LoginTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:15 EDT" name="tearDown" finished-at="2024-08-08T17:42:25 EDT" duration-ms="9489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:25 EDT" name="setup" finished-at="2024-08-08T17:42:29 EDT" duration-ms="4290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInValidPassword()[pri:4, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:29 EDT" name="loginWithInValidPassword" finished-at="2024-08-08T17:42:31 EDT" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:31 EDT" name="tearDown" finished-at="2024-08-08T17:42:31 EDT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:31 EDT" name="setup" finished-at="2024-08-08T17:42:37 EDT" duration-ms="6360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithNoCredantias()[pri:5, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:37 EDT" name="loginWithNoCredantias" finished-at="2024-08-08T17:42:38 EDT" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredantias -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:38 EDT" name="tearDown" finished-at="2024-08-08T17:42:38 EDT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:38 EDT" name="setup" finished-at="2024-08-08T17:42:42 EDT" duration-ms="3697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithEmptyEmail()[pri:6, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:42 EDT" name="loginWithEmptyEmail" finished-at="2024-08-08T17:42:43 EDT" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:43 EDT" name="tearDown" finished-at="2024-08-08T17:42:43 EDT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:43 EDT" name="setup" finished-at="2024-08-08T17:42:47 EDT" duration-ms="3975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithEmptyPassword()[pri:7, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:47 EDT" name="loginWithEmptyPassword" finished-at="2024-08-08T17:42:49 EDT" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.LoginTest@3a93b025]" started-at="2024-08-08T17:42:49 EDT" name="tearDown" finished-at="2024-08-08T17:42:49 EDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialN.testCases.LoginTest -->
+      <class name="com.tutorialN.testCases.SearchProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:30 EDT" name="setup" finished-at="2024-08-08T17:41:34 EDT" duration-ms="4613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWithValidProduct()[pri:1, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:34 EDT" name="searchWithValidProduct" finished-at="2024-08-08T17:41:37 EDT" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:37 EDT" name="tearDown" finished-at="2024-08-08T17:41:37 EDT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:37 EDT" name="setup" finished-at="2024-08-08T17:41:42 EDT" duration-ms="4854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWithInValidProduct()[pri:2, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:42 EDT" name="searchWithInValidProduct" finished-at="2024-08-08T17:41:45 EDT" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:45 EDT" name="tearDown" finished-at="2024-08-08T17:41:45 EDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:45 EDT" name="setup" finished-at="2024-08-08T17:41:47 EDT" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWithNoProduct()[pri:3, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:47 EDT" name="searchWithNoProduct" finished-at="2024-08-08T17:41:49 EDT" duration-ms="2643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:49 EDT" name="tearDown" finished-at="2024-08-08T17:41:49 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:49 EDT" name="setup" finished-at="2024-08-08T17:41:52 EDT" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addValidProductAndCompletCheckout()[pri:4, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:52 EDT" name="addValidProductAndCompletCheckout" finished-at="2024-08-08T17:41:57 EDT" duration-ms="4647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addValidProductAndCompletCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.SearchProductTest@79e2c065]" started-at="2024-08-08T17:41:57 EDT" name="tearDown" finished-at="2024-08-08T17:41:57 EDT" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialN.testCases.SearchProductTest -->
+      <class name="com.tutorialN.testCases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:40:57 EDT" name="setup" finished-at="2024-08-08T17:41:03 EDT" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithValidDetails()[pri:1, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:03 EDT" name="registerWithValidDetails" finished-at="2024-08-08T17:41:06 EDT" duration-ms="2931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:06 EDT" name="tearDown" finished-at="2024-08-08T17:41:06 EDT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:06 EDT" name="setup" finished-at="2024-08-08T17:41:18 EDT" duration-ms="11985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithAllDetails()[pri:2, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:18 EDT" name="registerWithAllDetails" finished-at="2024-08-08T17:41:22 EDT" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:22 EDT" name="tearDown" finished-at="2024-08-08T17:41:22 EDT" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:22 EDT" name="setup" finished-at="2024-08-08T17:41:27 EDT" duration-ms="4702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithExsistEmail()[pri:3, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:27 EDT" name="registerWithExsistEmail" finished-at="2024-08-08T17:41:30 EDT" duration-ms="2691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithExsistEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialN.testCases.RegisterTest@3ce1e309]" started-at="2024-08-08T17:41:30 EDT" name="tearDown" finished-at="2024-08-08T17:41:30 EDT" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialN.testCases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

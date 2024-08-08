@@ -172,7 +172,7 @@
         <version>3.3.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testing.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
